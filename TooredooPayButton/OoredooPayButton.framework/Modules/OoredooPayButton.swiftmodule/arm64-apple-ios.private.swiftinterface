@@ -1,0 +1,91 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name OoredooPayButton
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import Foundation
+import Lottie
+import SharkCardScan
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol OoreedoPaymentDelegate : AnyObject {
+  func finishedSdkPayment(withTxnRef transactionReferenceNo: Swift.String, _ customerId: Swift.String)
+}
+public class PaymentViewController {
+  weak public var delegate: OoredooPayButton.OoreedoPaymentDelegate?
+  public init(merchantId: Swift.String, terminalId: Swift.String, amount: Swift.Double, secureHash: Swift.String, customerId: Swift.String = "", customerName: Swift.String = "", customerEmail: Swift.String = "")
+  public func pushViewController()
+  @objc deinit
+}
+public struct URLParameterEncoder : OoredooPayButton.ParameterEncoder {
+  public func encode(urlRequest: inout Foundation.URLRequest, with parameters: OoredooPayButton.Parameters) throws
+}
+@_hasMissingDesignatedInitializers public class FormattedDate {
+  public static func getDate() -> Swift.String
+  @objc deinit
+}
+public class CreditCardValidator {
+  public var types: [OoredooPayButton.CreditCardValidationType] {
+    get
+    set
+  }
+  public init()
+  public func type(from string: Swift.String) -> OoredooPayButton.CreditCardValidationType?
+  public func validate(number: Swift.String) -> Swift.Bool
+  public func validate(string: Swift.String, forType type: OoredooPayButton.CreditCardValidationType) -> Swift.Bool
+  public func onlyNumbers(string: Swift.String) -> Swift.String
+  @objc deinit
+}
+public typealias NetworkRouterCompletion = (_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: Swift.Error?) -> ()
+@_hasMissingDesignatedInitializers public class ImageProvider {
+  public static func image(named: Swift.String) -> UIKit.UIImage?
+  @objc deinit
+}
+public struct PayByCardReponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct CheckTransactionStatusResponse : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias Parameters = [Swift.String : Any]
+public protocol ParameterEncoder {
+  func encode(urlRequest: inout Foundation.URLRequest, with parameters: OoredooPayButton.Parameters) throws
+}
+public enum ParameterEncoding {
+  case urlEncoding
+  case jsonEncoding
+  case urlAndJsonEncoding
+  public func encode(urlRequest: inout Foundation.URLRequest, bodyParameters: OoredooPayButton.Parameters?, urlParameters: OoredooPayButton.Parameters?) throws
+  public static func == (a: OoredooPayButton.ParameterEncoding, b: OoredooPayButton.ParameterEncoding) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum NetworkError : Swift.String, Swift.Error {
+  case parametersNil
+  case encodingFailed
+  case missingURL
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct JSONParameterEncoder : OoredooPayButton.ParameterEncoder {
+  public func encode(urlRequest: inout Foundation.URLRequest, with parameters: OoredooPayButton.Parameters) throws
+}
+public func == (lhs: OoredooPayButton.CreditCardValidationType, rhs: OoredooPayButton.CreditCardValidationType) -> Swift.Bool
+public struct CreditCardValidationType : Swift.Equatable {
+  public var name: Swift.String
+  public var regex: Swift.String
+  public init(dict: [Swift.String : Any])
+}
+extension OoredooPayButton.ParameterEncoding : Swift.Equatable {}
+extension OoredooPayButton.ParameterEncoding : Swift.Hashable {}
+extension OoredooPayButton.NetworkError : Swift.Equatable {}
+extension OoredooPayButton.NetworkError : Swift.Hashable {}
+extension OoredooPayButton.NetworkError : Swift.RawRepresentable {}

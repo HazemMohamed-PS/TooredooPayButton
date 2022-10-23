@@ -1,0 +1,4 @@
+framework module OoredooPayButton {
+  header "OoredooPayButton-Swift.h"
+  requires objc
+}
