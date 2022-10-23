@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		YW1Ledn4G/8xtjAqmnZvUpFfHRY=
+		BtTL9E0cAspdUI6I7vyMv3tLalg=
 		</data>
 		<key>Headers/OoredooPayButton-Swift.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7kgqVIgJEPq1+ben4Vtk/q50oJc=
+		zr5DRzgSR6+wR8UkSqV1IVOTjp8=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/OoredooPayButton.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		3oWQP1wpo9XmCbal6CqTMeUQSto=
+		z61xrjjp2sXZGCnRmzeZY4Cf6J0=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		p0XgcB9mNWTPpbaf13vuPPTA3eI=
+		a6Xxp4lxLrDWnuqxsrrxk7kiJl4=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ygSgh/HQcpgzlCtCM82GMlLggNw=
+		yZSQhgUequoUKkqpzccp0dR7DYE=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		T3syFhWSkn3a7/JTxeePyDYJgec=
+		HLFPPQHlEXRQXQb9+FYITgXOHhU=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ygSgh/HQcpgzlCtCM82GMlLggNw=
+		yZSQhgUequoUKkqpzccp0dR7DYE=
 		</data>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oD5kzhYiFOZDv8ijuHl0P+bydR4=
+		ixnV2uV5YxC0oFynkUD+RHQf124=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,7 +125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LVMfJs4UT47YXQoqbYROCf7lkeitJ7RxC1sQtD/1mZs=
+			JebqE+Rehi1+UkuIbBQx/FN6F1KP7g8FyI4le6/3jcY=
 			</data>
 		</dict>
 		<key>Headers/OoredooPayButton-Swift.h</key>
@@ -142,46 +142,46 @@
 			Lt4WieY0Xco0vqLsnE6T36ppQxMQgOEw1K6BzqKZn44=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/OoredooPayButton.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ec67UkSL+qQL27RpoYN50ZgROUi7/4lSk2m+Sr8V1cU=
+			+LtQh+GvKADphrIGlXE/+4p2u6Xyxz5A+11HesMHRak=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tW7a7mXXsMQYNFZ82BbF0ZMTWu57Nu9djUBWOTpOO6Q=
+			3XLEUxm0+LMqCu926S9HJJBkm7UI9u7upcW9KK7QRbs=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZjiCT2kg3IH3bQiDrGCf1TdTE3slqBzb2LUSuQOsOUM=
+			b1m4herTcwgulSoYXSKKRQ6ZIR1XcK1N5rTnZ0wC+Wk=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vntkITeUegcnD83vdWi5N9KAQTzhSOgs08VrANiz5uA=
+			3Mq3M7vlWY26Vnc0ElTypq60ZCY6fEYl9oX1iHTtb04=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZjiCT2kg3IH3bQiDrGCf1TdTE3slqBzb2LUSuQOsOUM=
+			b1m4herTcwgulSoYXSKKRQ6ZIR1XcK1N5rTnZ0wC+Wk=
 			</data>
 		</dict>
-		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/OoredooPayButton.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LyvPow4w1pdfiVYAuyGxT9rzYTi/MigL3+y1dIyXHu4=
+			oejWBef3nQ5r14X52QFTPtLw8rBjlL94QW+r0euiCVA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

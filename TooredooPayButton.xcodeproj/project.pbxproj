@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0486D41A29055564003AF123 /* OoredooPayButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E9FCC22905483F00A4A7F9 /* OoredooPayButton.framework */; };
-		0486D41B29055564003AF123 /* OoredooPayButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04E9FCC22905483F00A4A7F9 /* OoredooPayButton.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0486D42029055CA1003AF123 /* OoredooPayButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0486D41F29055CA1003AF123 /* OoredooPayButton.framework */; };
 		04E9FCAF2905482500A4A7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9FCAE2905482500A4A7F9 /* AppDelegate.swift */; };
 		04E9FCB12905482500A4A7F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9FCB02905482500A4A7F9 /* SceneDelegate.swift */; };
 		04E9FCB32905482500A4A7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9FCB22905482500A4A7F9 /* ViewController.swift */; };
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0486D41B29055564003AF123 /* OoredooPayButton.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0486D41F29055CA1003AF123 /* OoredooPayButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OoredooPayButton.framework; sourceTree = "<group>"; };
 		04E9FCAB2905482500A4A7F9 /* TooredooPayButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TooredooPayButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E9FCAE2905482500A4A7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E9FCB02905482500A4A7F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +39,6 @@
 		04E9FCB72905482600A4A7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E9FCBA2905482600A4A7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E9FCBC2905482600A4A7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04E9FCC22905483F00A4A7F9 /* OoredooPayButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OoredooPayButton.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0486D41A29055564003AF123 /* OoredooPayButton.framework in Frameworks */,
+				0486D42029055CA1003AF123 /* OoredooPayButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +72,7 @@
 		04E9FCAD2905482500A4A7F9 /* TooredooPayButton */ = {
 			isa = PBXGroup;
 			children = (
-				04E9FCC22905483F00A4A7F9 /* OoredooPayButton.framework */,
+				0486D41F29055CA1003AF123 /* OoredooPayButton.framework */,
 				04E9FCAE2905482500A4A7F9 /* AppDelegate.swift */,
 				04E9FCB02905482500A4A7F9 /* SceneDelegate.swift */,
 				04E9FCB22905482500A4A7F9 /* ViewController.swift */,

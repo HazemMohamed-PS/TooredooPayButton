@@ -16,1144 +16,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SavedCardPaymentViewProtocol",
-        "printedName": "SavedCardPaymentViewProtocol",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "setSavedCardAmountTextField",
-            "printedName": "setSavedCardAmountTextField(withValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP03setdE15AmountTextField9withValueySS_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP03setdE15AmountTextField9withValueySS_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didTapToggleButton",
-            "printedName": "didTapToggleButton(forCell:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SavedCardTableViewCell",
-                "printedName": "OoredooPayButton.SavedCardTableViewCell",
-                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP012didTapToggleC07forCellyAA0de5TablegM0C_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP012didTapToggleC07forCellyAA0de5TablegM0C_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didTapDeleteIconButton",
-            "printedName": "didTapDeleteIconButton(forCell:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SavedCardTableViewCell",
-                "printedName": "OoredooPayButton.SavedCardTableViewCell",
-                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016didTapDeleteIconC07forCellyAA0de5TablegN0C_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016didTapDeleteIconC07forCellyAA0de5TablegN0C_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didTapCvvTextField",
-            "printedName": "didTapCvvTextField(forCell:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SavedCardTableViewCell",
-                "printedName": "OoredooPayButton.SavedCardTableViewCell",
-                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP18didTapCvvTextField7forCellyAA0de5TablegO0C_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP18didTapCvvTextField7forCellyAA0de5TablegO0C_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "openWebView",
-            "printedName": "openWebView(withUrlPath:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP07openWebG011withUrlPathySS_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP07openWebG011withUrlPathySS_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "navigateToPaymentApprovedView",
-            "printedName": "navigateToPaymentApprovedView(withTrxnReference:andMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8ApprovedG017withTrxnReference10andMessageySS_SStF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8ApprovedG017withTrxnReference10andMessageySS_SStF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "navigateToPaymentRejectedView",
-            "printedName": "navigateToPaymentRejectedView(withMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8RejectedG011withMessageySS_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8RejectedG011withMessageySS_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onPayBtnTapped",
-            "printedName": "onPayBtnTapped()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP02onB9BtnTappedyyF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP02onB9BtnTappedyyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didDeleteCardSuccessfully",
-            "printedName": "didDeleteCardSuccessfully()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP09didDeleteE12SuccessfullyyyF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP09didDeleteE12SuccessfullyyyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateSavedCardList",
-            "printedName": "updateSavedCardList(withAllCardResponse:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GetCustomerCardsResponse",
-                "printedName": "OoredooPayButton.GetCustomerCardsResponse",
-                "usr": "s:16OoredooPayButton24GetCustomerCardsResponseV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP06updatedE4List07withAllE8ResponseyAA016GetCustomerCardsM0V_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP06updatedE4List07withAllE8ResponseyAA016GetCustomerCardsM0V_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "navigateToAddNewCardView",
-            "printedName": "navigateToAddNewCardView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNeweG0yyF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNeweG0yyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "navigateToAddNewCard",
-            "printedName": "navigateToAddNewCard(withAllCardResponse:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GetCustomerCardsResponse",
-                "printedName": "OoredooPayButton.GetCustomerCardsResponse",
-                "usr": "s:16OoredooPayButton24GetCustomerCardsResponseV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNewE007withAllE8ResponseyAA016GetCustomerCardsO0V_tF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNewE007withAllE8ResponseyAA016GetCustomerCardsO0V_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startLoading",
-            "printedName": "startLoading()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP12startLoadingyyF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP12startLoadingyyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "endLoading",
-            "printedName": "endLoading()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP10endLoadingyyF",
-            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP10endLoadingyyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP",
-        "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP",
-        "moduleName": "OoredooPayButton",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SavedCardPaymentPresenterProtocol",
-        "printedName": "SavedCardPaymentPresenterProtocol",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "view",
-            "printedName": "view",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SavedCardPaymentViewProtocol",
-                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                    "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvp",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvp",
-            "moduleName": "OoredooPayButton",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SavedCardPaymentViewProtocol",
-                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvg",
-                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvg",
-                "moduleName": "OoredooPayButton",
-                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SavedCardPaymentViewProtocol",
-                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvs",
-                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvs",
-                "moduleName": "OoredooPayButton",
-                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvM",
-                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvM",
-                "moduleName": "OoredooPayButton",
-                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP11viewDidLoadyyF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP11viewDidLoadyyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getMerchantData",
-            "printedName": "getMerchantData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MerchantDataModel",
-                "printedName": "OoredooPayButton.MerchantDataModel",
-                "usr": "s:16OoredooPayButton17MerchantDataModelV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP15getMerchantDataAA0jK5ModelVyF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP15getMerchantDataAA0jK5ModelVyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getPaymentMethodData",
-            "printedName": "getPaymentMethodData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentMethodResponse",
-                "printedName": "OoredooPayButton.PaymentMethodResponse",
-                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP03getF10MethodDataAA0fJ8ResponseVyF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP03getF10MethodDataAA0fJ8ResponseVyF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "callPayBySavedCardAPI",
-            "printedName": "callPayBySavedCardAPI(customerSession:cardID:cvv:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deleteSavedCardAPI",
-            "printedName": "deleteSavedCardAPI(token:customerID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP06deletedE3API5token10customerIDySS_SStF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP06deletedE3API5token10customerIDySS_SStF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomerSession",
-            "printedName": "getCustomerSession(completionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP18getCustomerSession17completionHandleryySSc_tF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP18getCustomerSession17completionHandleryySSc_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomerCards",
-            "printedName": "getCustomerCards(usingsessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP16getCustomerCards14usingsessionIdySS_tF",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP16getCustomerCards14usingsessionIdySS_tF",
-            "moduleName": "OoredooPayButton",
-            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
-        "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
-        "moduleName": "OoredooPayButton",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SavedCardPaymentPresenter",
-        "printedName": "SavedCardPaymentPresenter",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "view",
-            "printedName": "view",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvp",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvp",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership"
-            ],
-            "fixedbinaryorder": 0,
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SavedCardPaymentViewProtocol",
-                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvg",
-                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvg",
-                "moduleName": "OoredooPayButton",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SavedCardPaymentViewProtocol",
-                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvs",
-                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvs",
-                "moduleName": "OoredooPayButton",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvM",
-                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvM",
-                "moduleName": "OoredooPayButton",
-                "implicit": true,
-                "isOpen": true,
-                "declAttributes": [
-                  "Transparent"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "merchantData",
-            "printedName": "merchantData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "OoredooPayButton.MerchantDataModel?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MerchantDataModel",
-                    "printedName": "OoredooPayButton.MerchantDataModel",
-                    "usr": "s:16OoredooPayButton17MerchantDataModelV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC12merchantData33_35A501488F9123AC108727BC0FEC4D15LLAA08MerchantI5ModelVSgvp",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC12merchantData33_35A501488F9123AC108727BC0FEC4D15LLAA08MerchantI5ModelVSgvp",
-            "moduleName": "OoredooPayButton",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 1,
-            "hasStorage": true
-          },
-          {
-            "kind": "Var",
-            "name": "paymentMethodData",
-            "printedName": "paymentMethodData",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ImplicitlyUnwrappedOptional",
-                "printedName": "OoredooPayButton.PaymentMethodResponse?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PaymentMethodResponse",
-                    "printedName": "OoredooPayButton.PaymentMethodResponse",
-                    "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC17paymentMethodData33_35A501488F9123AC108727BC0FEC4D15LLAA0fI8ResponseVSgvp",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC17paymentMethodData33_35A501488F9123AC108727BC0FEC4D15LLAA0fI8ResponseVSgvp",
-            "moduleName": "OoredooPayButton",
-            "isInternal": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "fixedbinaryorder": 2,
-            "hasStorage": true
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(view:merchantData:paymentMethodData:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SavedCardPaymentPresenter",
-                "printedName": "OoredooPayButton.SavedCardPaymentPresenter",
-                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SavedCardPaymentViewProtocol",
-                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
-                "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MerchantDataModel",
-                "printedName": "OoredooPayButton.MerchantDataModel",
-                "usr": "s:16OoredooPayButton17MerchantDataModelV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentMethodResponse",
-                "printedName": "OoredooPayButton.PaymentMethodResponse",
-                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4view12merchantData013paymentMethodJ0AcA0deF12ViewProtocol_p_AA08MerchantJ5ModelVAA0fL8ResponseVtcfc",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4view12merchantData013paymentMethodJ0AcA0deF12ViewProtocol_p_AA08MerchantJ5ModelVAA0fL8ResponseVtcfc",
-            "moduleName": "OoredooPayButton",
-            "declAttributes": [
-              "Required"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC11viewDidLoadyyF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC11viewDidLoadyyF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getMerchantData",
-            "printedName": "getMerchantData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MerchantDataModel",
-                "printedName": "OoredooPayButton.MerchantDataModel",
-                "usr": "s:16OoredooPayButton17MerchantDataModelV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC15getMerchantDataAA0iJ5ModelVyF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC15getMerchantDataAA0iJ5ModelVyF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getPaymentMethodData",
-            "printedName": "getPaymentMethodData()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PaymentMethodResponse",
-                "printedName": "OoredooPayButton.PaymentMethodResponse",
-                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC03getF10MethodDataAA0fI8ResponseVyF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC03getF10MethodDataAA0fI8ResponseVyF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "callPayBySavedCardAPI",
-            "printedName": "callPayBySavedCardAPI(customerSession:cardID:cvv:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "deleteSavedCardAPI",
-            "printedName": "deleteSavedCardAPI(token:customerID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC06deletedE3API5token10customerIDySS_SStF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC06deletedE3API5token10customerIDySS_SStF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomerSession",
-            "printedName": "getCustomerSession(completionHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC18getCustomerSession17completionHandleryySSc_tF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC18getCustomerSession17completionHandleryySSc_tF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getCustomerCards",
-            "printedName": "getCustomerCards(usingsessionId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC16getCustomerCards14usingsessionIdySS_tF",
-            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC16getCustomerCards14usingsessionIdySS_tF",
-            "moduleName": "OoredooPayButton",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC",
-        "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC",
-        "moduleName": "OoredooPayButton",
-        "isOpen": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "SavedCardPaymentPresenterProtocol",
-            "printedName": "SavedCardPaymentPresenterProtocol",
-            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
-            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "OoredooPayButton",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "NetworkLogger",
         "printedName": "NetworkLogger",
         "children": [
@@ -58442,6 +57304,1144 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OoredooPayButton",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SavedCardPaymentViewProtocol",
+        "printedName": "SavedCardPaymentViewProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setSavedCardAmountTextField",
+            "printedName": "setSavedCardAmountTextField(withValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP03setdE15AmountTextField9withValueySS_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP03setdE15AmountTextField9withValueySS_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapToggleButton",
+            "printedName": "didTapToggleButton(forCell:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SavedCardTableViewCell",
+                "printedName": "OoredooPayButton.SavedCardTableViewCell",
+                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP012didTapToggleC07forCellyAA0de5TablegM0C_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP012didTapToggleC07forCellyAA0de5TablegM0C_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapDeleteIconButton",
+            "printedName": "didTapDeleteIconButton(forCell:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SavedCardTableViewCell",
+                "printedName": "OoredooPayButton.SavedCardTableViewCell",
+                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016didTapDeleteIconC07forCellyAA0de5TablegN0C_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016didTapDeleteIconC07forCellyAA0de5TablegN0C_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didTapCvvTextField",
+            "printedName": "didTapCvvTextField(forCell:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SavedCardTableViewCell",
+                "printedName": "OoredooPayButton.SavedCardTableViewCell",
+                "usr": "c:@M@OoredooPayButton@objc(cs)SavedCardTableViewCell"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP18didTapCvvTextField7forCellyAA0de5TablegO0C_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP18didTapCvvTextField7forCellyAA0de5TablegO0C_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openWebView",
+            "printedName": "openWebView(withUrlPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP07openWebG011withUrlPathySS_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP07openWebG011withUrlPathySS_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigateToPaymentApprovedView",
+            "printedName": "navigateToPaymentApprovedView(withTrxnReference:andMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8ApprovedG017withTrxnReference10andMessageySS_SStF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8ApprovedG017withTrxnReference10andMessageySS_SStF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigateToPaymentRejectedView",
+            "printedName": "navigateToPaymentRejectedView(withMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8RejectedG011withMessageySS_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP010navigateTof8RejectedG011withMessageySS_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPayBtnTapped",
+            "printedName": "onPayBtnTapped()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP02onB9BtnTappedyyF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP02onB9BtnTappedyyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didDeleteCardSuccessfully",
+            "printedName": "didDeleteCardSuccessfully()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP09didDeleteE12SuccessfullyyyF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP09didDeleteE12SuccessfullyyyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSavedCardList",
+            "printedName": "updateSavedCardList(withAllCardResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetCustomerCardsResponse",
+                "printedName": "OoredooPayButton.GetCustomerCardsResponse",
+                "usr": "s:16OoredooPayButton24GetCustomerCardsResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP06updatedE4List07withAllE8ResponseyAA016GetCustomerCardsM0V_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP06updatedE4List07withAllE8ResponseyAA016GetCustomerCardsM0V_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigateToAddNewCardView",
+            "printedName": "navigateToAddNewCardView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNeweG0yyF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNeweG0yyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "navigateToAddNewCard",
+            "printedName": "navigateToAddNewCard(withAllCardResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetCustomerCardsResponse",
+                "printedName": "OoredooPayButton.GetCustomerCardsResponse",
+                "usr": "s:16OoredooPayButton24GetCustomerCardsResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNewE007withAllE8ResponseyAA016GetCustomerCardsO0V_tF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP016navigateToAddNewE007withAllE8ResponseyAA016GetCustomerCardsO0V_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLoading",
+            "printedName": "startLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP12startLoadingyyF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP12startLoadingyyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endLoading",
+            "printedName": "endLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP10endLoadingyyF",
+            "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP10endLoadingyyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentViewProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP",
+        "mangledName": "$s16OoredooPayButton28SavedCardPaymentViewProtocolP",
+        "moduleName": "OoredooPayButton",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SavedCardPaymentPresenterProtocol",
+        "printedName": "SavedCardPaymentPresenterProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SavedCardPaymentViewProtocol",
+                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                    "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvp",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvp",
+            "moduleName": "OoredooPayButton",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SavedCardPaymentViewProtocol",
+                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvg",
+                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvg",
+                "moduleName": "OoredooPayButton",
+                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SavedCardPaymentViewProtocol",
+                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvs",
+                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvs",
+                "moduleName": "OoredooPayButton",
+                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvM",
+                "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP4viewAA0def4ViewH0_pSgvM",
+                "moduleName": "OoredooPayButton",
+                "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP11viewDidLoadyyF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP11viewDidLoadyyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMerchantData",
+            "printedName": "getMerchantData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDataModel",
+                "printedName": "OoredooPayButton.MerchantDataModel",
+                "usr": "s:16OoredooPayButton17MerchantDataModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP15getMerchantDataAA0jK5ModelVyF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP15getMerchantDataAA0jK5ModelVyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentMethodData",
+            "printedName": "getPaymentMethodData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethodResponse",
+                "printedName": "OoredooPayButton.PaymentMethodResponse",
+                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP03getF10MethodDataAA0fJ8ResponseVyF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP03getF10MethodDataAA0fJ8ResponseVyF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callPayBySavedCardAPI",
+            "printedName": "callPayBySavedCardAPI(customerSession:cardID:cvv:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteSavedCardAPI",
+            "printedName": "deleteSavedCardAPI(token:customerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP06deletedE3API5token10customerIDySS_SStF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP06deletedE3API5token10customerIDySS_SStF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerSession",
+            "printedName": "getCustomerSession(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP18getCustomerSession17completionHandleryySSc_tF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP18getCustomerSession17completionHandleryySSc_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerCards",
+            "printedName": "getCustomerCards(usingsessionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP16getCustomerCards14usingsessionIdySS_tF",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP16getCustomerCards14usingsessionIdySS_tF",
+            "moduleName": "OoredooPayButton",
+            "genericSig": "<τ_0_0 where τ_0_0 : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "sugared_genericSig": "<Self where Self : OoredooPayButton.SavedCardPaymentPresenterProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
+        "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
+        "moduleName": "OoredooPayButton",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SavedCardPaymentPresenter",
+        "printedName": "SavedCardPaymentPresenter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "view",
+            "printedName": "view",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvp",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvp",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "fixedbinaryorder": 0,
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SavedCardPaymentViewProtocol",
+                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvg",
+                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvg",
+                "moduleName": "OoredooPayButton",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SavedCardPaymentViewProtocol",
+                        "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                        "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvs",
+                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvs",
+                "moduleName": "OoredooPayButton",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvM",
+                "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4viewAA0deF12ViewProtocol_pSgvM",
+                "moduleName": "OoredooPayButton",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "merchantData",
+            "printedName": "merchantData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "OoredooPayButton.MerchantDataModel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MerchantDataModel",
+                    "printedName": "OoredooPayButton.MerchantDataModel",
+                    "usr": "s:16OoredooPayButton17MerchantDataModelV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC12merchantData33_35A501488F9123AC108727BC0FEC4D15LLAA08MerchantI5ModelVSgvp",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC12merchantData33_35A501488F9123AC108727BC0FEC4D15LLAA08MerchantI5ModelVSgvp",
+            "moduleName": "OoredooPayButton",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "paymentMethodData",
+            "printedName": "paymentMethodData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "OoredooPayButton.PaymentMethodResponse?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentMethodResponse",
+                    "printedName": "OoredooPayButton.PaymentMethodResponse",
+                    "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC17paymentMethodData33_35A501488F9123AC108727BC0FEC4D15LLAA0fI8ResponseVSgvp",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC17paymentMethodData33_35A501488F9123AC108727BC0FEC4D15LLAA0fI8ResponseVSgvp",
+            "moduleName": "OoredooPayButton",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(view:merchantData:paymentMethodData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SavedCardPaymentPresenter",
+                "printedName": "OoredooPayButton.SavedCardPaymentPresenter",
+                "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SavedCardPaymentViewProtocol",
+                "printedName": "OoredooPayButton.SavedCardPaymentViewProtocol",
+                "usr": "s:16OoredooPayButton28SavedCardPaymentViewProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDataModel",
+                "printedName": "OoredooPayButton.MerchantDataModel",
+                "usr": "s:16OoredooPayButton17MerchantDataModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethodResponse",
+                "printedName": "OoredooPayButton.PaymentMethodResponse",
+                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC4view12merchantData013paymentMethodJ0AcA0deF12ViewProtocol_p_AA08MerchantJ5ModelVAA0fL8ResponseVtcfc",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC4view12merchantData013paymentMethodJ0AcA0deF12ViewProtocol_p_AA08MerchantJ5ModelVAA0fL8ResponseVtcfc",
+            "moduleName": "OoredooPayButton",
+            "declAttributes": [
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC11viewDidLoadyyF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC11viewDidLoadyyF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMerchantData",
+            "printedName": "getMerchantData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MerchantDataModel",
+                "printedName": "OoredooPayButton.MerchantDataModel",
+                "usr": "s:16OoredooPayButton17MerchantDataModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC15getMerchantDataAA0iJ5ModelVyF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC15getMerchantDataAA0iJ5ModelVyF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentMethodData",
+            "printedName": "getPaymentMethodData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaymentMethodResponse",
+                "printedName": "OoredooPayButton.PaymentMethodResponse",
+                "usr": "s:16OoredooPayButton21PaymentMethodResponseV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC03getF10MethodDataAA0fI8ResponseVyF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC03getF10MethodDataAA0fI8ResponseVyF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callPayBySavedCardAPI",
+            "printedName": "callPayBySavedCardAPI(customerSession:cardID:cvv:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC04callb2BydE3API15customerSession6cardID3cvvySS_SiSStF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteSavedCardAPI",
+            "printedName": "deleteSavedCardAPI(token:customerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC06deletedE3API5token10customerIDySS_SStF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC06deletedE3API5token10customerIDySS_SStF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerSession",
+            "printedName": "getCustomerSession(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC18getCustomerSession17completionHandleryySSc_tF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC18getCustomerSession17completionHandleryySSc_tF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCustomerCards",
+            "printedName": "getCustomerCards(usingsessionId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC16getCustomerCards14usingsessionIdySS_tF",
+            "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC16getCustomerCards14usingsessionIdySS_tF",
+            "moduleName": "OoredooPayButton",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16OoredooPayButton25SavedCardPaymentPresenterC",
+        "mangledName": "$s16OoredooPayButton25SavedCardPaymentPresenterC",
+        "moduleName": "OoredooPayButton",
+        "isOpen": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SavedCardPaymentPresenterProtocol",
+            "printedName": "SavedCardPaymentPresenterProtocol",
+            "usr": "s:16OoredooPayButton33SavedCardPaymentPresenterProtocolP",
+            "mangledName": "$s16OoredooPayButton33SavedCardPaymentPresenterProtocolP"
           }
         ]
       },
